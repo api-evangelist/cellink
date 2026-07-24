@@ -1,27 +1,78 @@
 aid: cellink
 name: CelLink
-description: 'CelLink is a company surfaced as a portfolio company of d1-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: manufacturing. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'CelLink (CelLink Technologies / CelLink Corporation) manufactures large-format,
+  high-conductance flexible circuits that consolidate power, data, and sensing into thin,
+  lightweight layers, replacing traditional wire harnesses and busbars. Its product lines are
+  Battery Pack Interconnect, Flex Harness, and Data Center power delivery, serving automotive,
+  aerospace, industrial, data center, and grid-storage electrification markets. Founded by CEO
+  Kevin Coakley and VP Engineering Malcolm Brown, the company is headquartered in San Carlos,
+  California, with sites in Georgetown, Texas; Wixom, Michigan; Hamburg, Germany; and Shanghai,
+  China. CelLink circuits have been in electric-vehicle production since 2020. CelLink is a
+  hardware manufacturer and publishes no public developer portal, API, or SDK surface.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6786e115bf01d3933adc403b/685aec68fd22be9a76c97e44_icon.png
 url: https://raw.githubusercontent.com/api-evangelist/cellink/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - d1-capital
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Manufacturing
+- Electrification
+- Electric Vehicles
+- Flexible Circuits
+- Wiring Harness
+- Battery
+- Data Center
+- Automotive
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/cellink-domain-security.yml
+- type: LLMsTxt
+  url: llms/cellink-llms.txt
 - type: Website
-  url: https://www.cellinkcorp.com
+  url: https://cellinktechnologies.com/
+- type: About
+  url: https://cellinktechnologies.com/about
+- type: Blog
+  url: https://cellinktechnologies.com/news
+- type: Support
+  url: https://cellinktechnologies.com/contact-us
+- type: TermsOfService
+  url: https://cellinktechnologies.com/terms
+- type: PrivacyPolicy
+  url: https://cellinktechnologies.com/privacy-policy
+- type: Careers
+  url: https://cellinktechnologies.com/career
+- type: LinkedIn
+  url: https://www.linkedin.com/company/cellink-circuits-corporation/
+- type: Twitter
+  url: https://twitter.com/CellinkCorp

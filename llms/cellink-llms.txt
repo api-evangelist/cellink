@@ -1,0 +1,43 @@
+# CelLink
+
+> CelLink (CelLink Technologies / CelLink Corporation) manufactures large-format, high-conductance
+> flexible circuits that consolidate power, data, and sensing into thin, lightweight layers,
+> replacing traditional wire harnesses and busbars. Products: Battery Pack Interconnect, Flex
+> Harness, and Data Center power delivery. Markets: automotive, aerospace, industrial, data center,
+> and grid storage. Headquartered in San Carlos, California, with sites in Georgetown, Texas;
+> Wixom, Michigan; Hamburg, Germany; and Shanghai, China. CelLink circuits have been in
+> electric-vehicle production since 2020.
+
+## Notes
+
+- CelLink is a hardware manufacturer. As of 2026-07-20 it publishes no public developer portal,
+  API reference, OpenAPI/AsyncAPI specification, SDK, CLI, or MCP server.
+- The former domain cellinkcorp.com no longer resolves (NXDOMAIN). The historical redirect chain
+  cellinkcorp.com -> cellinkcircuits.com -> cellinktechnologies.com resolves to the live site.
+- No /llms.txt, /.well-known/security.txt, /.well-known/api-catalog, /.well-known/ai-plugin.json,
+  /.well-known/openid-configuration, or /.well-known/oauth-authorization-server is published
+  (all returned HTTP 404 on 2026-07-20).
+
+## Company
+
+- [Website](https://cellinktechnologies.com/): Company home.
+- [About](https://cellinktechnologies.com/about): Technology, leadership, and global footprint.
+- [News](https://cellinktechnologies.com/news): Product and company updates.
+- [Contact](https://cellinktechnologies.com/contact-us): Contact form.
+- [Careers](https://cellinktechnologies.com/career): Open roles.
+
+## Products
+
+- [Battery Pack Interconnect](https://cellinktechnologies.com/product/battery-pack-interconnect)
+- [Flex Harness](https://cellinktechnologies.com/product/flex-harness): Low-voltage and high-voltage harnessing.
+- [Data Center](https://cellinktechnologies.com/product/data-center): Power delivery for AI/data-center loads.
+
+## Legal
+
+- [Terms of Use](https://cellinktechnologies.com/terms)
+- [Privacy Policy](https://cellinktechnologies.com/privacy-policy)
+
+## Artifacts
+
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/cellink/refs/heads/main/security/cellink-domain-security.yml): Probed TLS/HSTS/DNSSEC/CAA/SPF/DMARC posture.
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/cellink/refs/heads/main/apis.yml): API Evangelist network profile.

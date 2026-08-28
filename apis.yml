@@ -9,6 +9,17 @@ description: 'CelLink (CelLink Technologies / CelLink Corporation) manufactures 
   California, with sites in Georgetown, Texas; Wixom, Michigan; Hamburg, Germany; and Shanghai,
   China. CelLink circuits have been in electric-vehicle production since 2020. CelLink is a
   hardware manufacturer and publishes no public developer portal, API, or SDK surface.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
